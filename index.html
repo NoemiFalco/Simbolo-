@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>symbol</title>
+    <style type="text/css">
+        svg{
+            padding: 0;
+            margin: 0;
+        }
+        .l1{
+            fill:pink;
+        }
+        .l2{
+            fill:blue;
+        }
+        .l3{
+            fill:green;
+        }
+    </style>
+</head>
+<body>
+   <svg style="display: none;">
+	<symbol id="llapis" viewBox="0 0 1366 768"> 
+	<path d="M683,93H575h-31h-52v465l48.6,67.43l48.6,67.43l46.53-68.87L680.32,558H683V93z M601,673.27l-11.77,17.42l-12.29-17.06
+		l-12.01-16.66l23.79-0.36l23.79-0.36L601,673.27z M613.41,655.24l-24.71,0.37l-24.85,0.38l-22.44-31.14l-47.48-65.87l93.22-1.41
+		l11.85-0.18V558h31v-1.09l50.36-0.76l-45.46,67.28L613.41,655.24z M493,94h51v463h-51V94z M682,555.12l-52,0.79V94h52V555.12z
+		 M599,556.38l-11.87,0.18L575,556.74V94h24V556.38z M682,555.51V557h-1.01L682,555.51z"/></symbol> 
+</svg>
+<svg>
+    <use xlink:href="#llapis" class="l1" />
+</svg>
+<svg>
+    <use xlink:href="#llapis" class="l2" />
+</svg>
+<svg>
+    <use xlink:href="#llapis" class="l3" />
+</svg>
+</body>
+</html>
